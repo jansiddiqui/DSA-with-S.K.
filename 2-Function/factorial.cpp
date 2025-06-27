@@ -6,9 +6,6 @@ void factorial(int n){
     for(int i=1;i<=n;i++){
         fact *= i;
     }
-    if(n==0 || n==1){
-        cout<<"Factorial of "<<n<<" is: 1"<<endl;
-    }
     cout<<"Factorial of "<<n<<" is: "<<fact<<endl;
 }
 int main(){
